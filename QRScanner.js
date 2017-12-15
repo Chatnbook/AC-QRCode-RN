@@ -358,7 +358,7 @@ class QRScannerRectView extends Component {
  * 扫描界面
  */
 export default class QRScannerView extends Component {
-    static propTypes = {
+    /* static propTypes = {
         maskColor: React.PropTypes.string,
         borderColor: React.PropTypes.string,
         cornerColor: React.PropTypes.string,
@@ -384,7 +384,7 @@ export default class QRScannerView extends Component {
         isShowScanBar:React.PropTypes.bool,
         bottomMenuStyle:React.PropTypes.object,
         onScanResultReceived:React.PropTypes.func,
-    };
+    }; */
 
     constructor(props) {
         super(props);
